@@ -27,23 +27,46 @@ background: linear-gradient(to right, rgba(127, 127, 213, 0.75), rgba(134, 168, 
 }
 
 img.logo {
+
 width: 150px;
+
 }
 nav.navbar.navbar-expand-lg.navbar-dark.bg-transparent {
 	display: flex 1;
 }
+
 .profilepic {
-border-radius: 50%;
-width: 125px;
-height: 125px;
-background-image: url("1.jpg");
-background-size: cover;
-margin: 1rem;
-padding: 1rem;
--webkit-box-shadow: 13px 9px 30px 4px rgba(0,0,0,0.6);
--moz-box-shadow: 13px 9px 30px 4px rgba(0,0,0,0.6);
-box-shadow: 13px 9px 30px 4px rgba(0,0,0,0.6);
+	margin: auto;
+	padding: auto;
+/*	margin-left: auto;
+	margin-right: auto;*/
+	border-radius: 50%;
+	background-image: url("1.jpg");
+	background-size: cover;
+	width: 60px;
+	height: 60px;
+	margin: 1rem;
+	padding: 1rem;
+	-webkit-box-shadow: 13px 9px 30px 4px rgba(0,0,0,0.6);
+	-moz-box-shadow: 13px 9px 30px 4px rgba(0,0,0,0.6);
+	box-shadow: 13px 9px 30px 4px rgba(0,0,0,0.6);
+	}
+
+@media (min-width: 350px) {
+	.profilepic {
+		width: 90px;
+		height: 90px;
+	}
 }
+
+
+@media (min-width: 600px) {
+	.profilepic {
+		width: 125px;
+		height: 125px;
+	}
+}
+
 
 a.tab.navbar-nav.nav-link{
 	color: white;
