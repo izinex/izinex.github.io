@@ -1,7 +1,24 @@
-
 body {
-background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);	
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*body {
+background: linear-gradient(to right, rgba(127, 127, 213, 0.75), rgba(134, 168, 231, 0.75), rgba(145, 234, 228, 0.75));	
+}*/
 .logodiv {
 	position: absolute;
     margin-left: calc(50% - 75px);
@@ -56,6 +73,7 @@ a.tab.navbar-nav.nav-link{
 .nav-link.navbar-nav {
 	padding: 1rem;
 	margin: 1rem;
+	text-shadow: 2px 4px 6px #6B6769;
 
 }
 
@@ -64,6 +82,8 @@ a.maintab {
 	font-family: "Helvetica, sans-serif";
 	transition: all .4s ease-in-out;
 	font-size: 3rem;
+	color: white;
+	text-shadow: 2px 4px 6px #6B6769
 
 }
 a.maintab:nth-child:hover ~ .linetabs {
