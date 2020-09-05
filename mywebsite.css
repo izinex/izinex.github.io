@@ -104,7 +104,7 @@ a.maintab {
 	text-shadow: 2px 4px 6px #6B6769
 
 }
-a.maintab:nth-child:hover ~ .linetabs {
+a.maintab:nth-child:hover {
 	transform: translate(250px);
 	transition: all .4s ease-in-out;
 }
@@ -162,3 +162,24 @@ padding: 0;
   overflow: visible;
 }
 
+footer {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.sociallinks {
+	margin: 10px;
+	padding: 10px;
+}
+a.sb {
+	display: inline-block;
+	transition: all .4s ease-in-out;
+	size: 1rem;
+	color: white;
+	text-shadow: 2px 4px 6px #6B6769
+
+}
+a.sb:nth-child:hover {
+	transform: translate(250px);
+	transition: all .4s ease-in-out;
+}
