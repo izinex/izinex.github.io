@@ -211,15 +211,62 @@ a.sb:nth-child:hover {
 	margin: auto;
 }
 
+.about-main-div {
+	background-color: white;
+	position: relative;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	border: solid white 1px;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	box-shadow: 0 15px 25px 0 rgba(0,0,0,.25);
+	width: 90%;
+/*	width: 1074px;
+	height: 768px;*/
+	margin: auto;
+}
+
+#about-p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	margin: 2%;
+	padding: 2%;
+}
+#img {
+	content: '';
+	position: absolute;
+	box-shadow: 0 15px 25px 0 rgba(0,0,0,.5);
+	min-width: 15rem;
+	max-width: 15rem;
+	transform: translate(41rem,8rem);
+}
+@media (max-width: 1200px) {
+	#img {
+		display: none;
+	}
+}
+
+@media () {
+	.about-main-div {
+	width: 1074px;
+	height: 768px;
+	}
+}
+
 
 
 div.projectcards {
 	flex: 1;
-	padding-bottom: 8%; /* 32:18, i.e. 16:9 */
+	padding-bottom: 2%; /* 32:18, i.e. 16:9 */
   	margin: 2%; /* (100-32*3)/2 */
 	background-color: white;
 	box-shadow: 0 15px 25px 0 rgba(0,0,0,.25);
 	border-radius: .8rem;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25rem;
 }
 
 .projectrow {
