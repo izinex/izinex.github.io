@@ -290,4 +290,29 @@ a:nth-child:hover {
 	transition: all .4s ease-in-out;
 }
 
+.contactdiv {
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
 
+input.name {
+	margin: 1rem;
+	padding: 1rem;
+}
+input.email {
+	margin: 1rem;
+	padding: 1rem;
+	width: 95%;	
+}
+
+textarea.question {
+	margin: 1rem;
+	padding: 1rem;
+	width: 95%;
+}
+
+button.btn-lg.btn-primary {
+	width: 20%;
+	margin-bottom: 20px;
+}
